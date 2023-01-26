@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="Description" content="Enter your description here"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<link rel="stylesheet" href="assets/css/style.css">
+<link rel="stylesheet" href="main.css">
+<script src="main.js" defer></script>
+<title>Chicago Art Institute API</title>
+</head>
+
+<div class="jumbotron big-banner" style="height:100%; padding-top:150px;" 
+<body>
+    <div class="container">
+      <h1 class="text-center">Chicago Art Insitute Gallery</h1>
+      <h4 class="text-center"> Click a Painting for more information...</h4>  
+        <div class="gallery container">
+            <div class="row">
+                <figure class="gallery_item gallery_item-1 col-md" id="fig1" onclick="event.stopPropagation(); getPainting(this.id, event)">
+                    <img src="/images/1The_Bedroom.jpg" id="28560" alt="The Bedroom" class="gallery_img img-fluid border rounded">
+                    <figcaption></figcaption>
+                </figure>
+                <figure class="gallery_item gallery_item-2 col-md" id="fig2" onclick="event.stopPropagation(); getPainting(this.id, event)">
+                    <img src="images/2Many_Mansions.jpg" id="137125" alt="Many Mansions" class="gallery_img img-fluid border rounded">
+                    <figcaption></figcaption>
+                </figure>
+            </div>
+            <div class="row">
+                <figure class="gallery_item gallery_item-3 col-md" id="fig3" onclick="event.stopPropagation(); getPainting(this.id, event)">
+                    <img src="/images/5Starry_Night_and_the_Astronauts.jpg" id="129884" alt="Starry Night and the Astronauts" class="gallery_img img-fluid border rounded">
+                    <figcaption></figcaption>
+                </figure>
+                <figure class="gallery_item gallery_item-4 col-md" id="fig4" onclick="event.stopPropagation(); getPainting(this.id, event)">
+                    <img src="/images/4City_Landscape.jpg" id="86385" alt="City Landscape" class="gallery_img img-fluid border rounded">
+                    <figcaption></figcaption>
+                </figure>
+            </div>
+            <div class="row">
+                <figure class="gallery_item gallery_item-5 col-md" id="fig5" onclick="event.stopPropagation(); getPainting(this.id, event)">
+                    <img src="images/3Weaving.jpg" id="151363" alt="Weaving" class="gallery_img img-fluid border rounded">
+                    <figcaption></figcaption>
+                </figure>
+                <figure class="gallery_item gallery_item-6 col-md" id="fig6" onclick="event.stopPropagation(); getPainting(this.id, event)">
+                    <img src="images/6Paris_Street_Rainy_Day.jpg" id="20684" alt="Paris Street; Rainy Day" class="gallery_img img-fluid border rounded">
+                    <figcaption></figcaption>
+                </figure>
+            </div>
+        </div>
+    </div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
+</body>
+</html>

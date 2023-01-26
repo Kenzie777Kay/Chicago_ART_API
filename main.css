@@ -1,0 +1,25 @@
+*, *::after, *::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+
+}
+
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+.big-banner{
+    background-image:url(/images/background3.jpg)
+
+}
+
+.caption_style{
+    color: rgb(255, 255, 255);
+    border-radius: 50px;
+    text-align: center;
+    margin-top: 5px;
+    border: 3px solid black;
+    background-color: rgba(255, 255, 255, 0);
+}
